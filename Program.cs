@@ -9,8 +9,6 @@ namespace GitExercise
             Console.WriteLine("Hello World!");
 
             myClass myclass = new myClass();
-            
-            System.Console.WriteLine("testcommitment!");
 
         }
     }
