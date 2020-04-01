@@ -6,21 +6,30 @@ namespace GitExercise
         private string _adresse;
         private string _postNB;
 
+        public myClass(string name, string adresse, string postNB)
+        {
+            _name = name;
+            _adresse = adresse;
+            _postNB = postNB;
+        }
 
         public string Adresse 
-        { get 
+        { 
+            get 
             {
                 return _adresse; 
             }
         }
         public string Name 
-        { get 
+        { 
+            get 
             {
                 return _name; 
             }
         }
         public string PostNB 
-        { get 
+        { 
+            get 
             {
                 return _postNB; 
             }
