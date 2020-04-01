@@ -10,7 +10,7 @@ namespace GitExercise
 
             myClass myclass = new myClass();
             
-
+            System.Console.WriteLine("testcommitment!");
 
         }
     }

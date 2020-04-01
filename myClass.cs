@@ -2,6 +2,5 @@ namespace GitExercise
 {
     class myClass
     {
-        
     }
 }
