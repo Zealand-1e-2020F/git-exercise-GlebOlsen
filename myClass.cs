@@ -33,6 +33,10 @@ namespace GitExercise
             {
                 return _postNB; 
             }
-        }    
+        }
+        public override string ToString()
+        {
+            return $"His name is {Name} and he lives in {Adresse} and his postal code is {PostNB}!";
+        }
     }
 }
